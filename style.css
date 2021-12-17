@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #292929;
+    font-family: 'Open Sans',sans-serif;
+}
+.arrow{
+    display: inline-block;
+    border: solid #ffffff;
+    border-width: 0 6px 6px 0;
+    padding: 6px;
+}
+.arrow.left{
+    transform: rotate(135deg);
+}
+.arrow.right{
+    transform: rotate(-45deg);
+}
+.arrow.up{
+    transform: rotate(-135deg);
+}
+.arrow.down{
+    transform: rotate(45deg);
+}
